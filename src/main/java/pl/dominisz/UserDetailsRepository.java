@@ -9,11 +9,11 @@ public class UserDetailsRepository {
     private List<UserDetails> users = new ArrayList<>();
 
     public UserDetailsRepository() {
-        users.add(new UserDetails("asdf", "asdf"));
-        users.add(new UserDetails("1234", "qwerty123"));
-        users.add(new UserDetails("gdsa", "qazwsx123"));
-        users.add(new UserDetails("23ss", "asdfasdf"));
-        users.add(new UserDetails("plmkoijn", "rvfgtb"));
+        users.add(new UserDetails("username1", "password1"));
+        users.add(new UserDetails("username2", "password2"));
+        users.add(new UserDetails("username3", "password3"));
+        users.add(new UserDetails("username4", "password4"));
+        users.add(new UserDetails("username5", "password5"));
     }
 
     public Optional<UserDetails> findByUsername(String username) {
